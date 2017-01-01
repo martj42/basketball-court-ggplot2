@@ -4,7 +4,7 @@ library('ggthemes')
 ggplot(data=data.frame(x=1,y=1),aes(x,y))+
   ###floor:
   geom_rect(aes(xmin = -0.5, xmax = 15.74, ymin = -0.5, ymax = 14.825),fill = "darkgoldenrod", alpha = 0.7) +
-  geom_rect(aes(xmin = 5.18, xmax = 10.06, ymin = 8.555, ymax = 14.325),fill = "black", alpha = 0.85) +
+  geom_rect(aes(xmin = 5.18, xmax = 10.06, ymin = 8.555, ymax = 14.325),fill = "red2", alpha = 0.85) +
   ###court:
   geom_path(data=data.frame(x=c(0,0,15.24,15.24,0),y=c(0,14.325,14.325,0,0)), colour = "white", size = 1)+
   ###centre circle:
